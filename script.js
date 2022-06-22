@@ -5,6 +5,7 @@ var generateBtn = document.querySelector("#generate");
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
+  console.log("Wher");
 
   passwordText.value = password;
 
@@ -15,6 +16,16 @@ generateBtn.addEventListener("click", writePassword);
 
 
 // will need prompts for each of password length (8-128)
+function generatePassword() {
+  var questions = {
+      userLength: prompt("password length"),
+      specialCharacters: prompt("special characters"),
+      
+    }
+
+    console.log(questions.userLength)
+    // console.log(userLength)
+}
 // password length (8-128)
 // lowercase
 // uppercase
