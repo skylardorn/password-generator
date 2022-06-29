@@ -20,7 +20,9 @@ generateBtn.addEventListener("click", function run() {
       lowerCase: confirm("**Lowercase?**"),
       numeric: confirm("**Do you want to use numbers?**"),
     };
-    console.log(question.lowerCase);
+
+
+
 
     for (var i = 0; i < lengthQuestion; i++) {
       if (question.lowerCase) {
@@ -31,20 +33,20 @@ generateBtn.addEventListener("click", function run() {
 
       if (question.specialCharacters) {
         var stringSpecialCharacters = "!@#$%^&*()+"
-        password += stringSpecialCharacters.lengthSpecial(Math.floor(Math.random() * 26) + 97);
+        password += stringSpecialCharacters.charAt(Math.floor(Math.random() * 26) + 97);
         console.log(password);
       }
 
       if (question.upperCase) {
         var stringUpperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-        password += stringUpperCase.fromCharCode[Math.floor(Math.random() * 26) + 65];
-        console.log(lengthQuestion);
+        password += stringUpperCase.charAt[Math.floor(Math.random() * 26) + 65];
+        console.log(password);
       }
 
       if (question.numeric) {
         var stringNumeric = "0123456789"
-        password += stringNumeric.fromCharCode[Math.floor(Math.random() * 10 + 48)];
-        console.log(lengthQuestion);
+        password += stringNumeric.charAt[Math.floor(Math.random() * 10 + 48)];
+        console.log(password);
       }
     }
 
