@@ -70,7 +70,7 @@ function passwordButton() {
 
     // setting the password text on the html page to the user preferred password length
     passwordText.textContent = password.slice(0, lengthQuestion + 1);
-  } 
+  }
   // Alerts user password is invalid
   else {
     alert("Password input invalid, try again!");
