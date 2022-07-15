@@ -30,5 +30,6 @@ THEN the password is either displayed in an alert or written to the page
 ```
 
 ## Links
-<link href="https://skylardorn.github.io/password-generator/">
+
+Project Link: https://skylardorn.github.io/password-generator/
 
